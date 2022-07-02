@@ -9,8 +9,8 @@ window.onload = () => {
 
     function click() {
         const tipoOperacao= obterValorInput('tipoOperacao')
-        const valor1 = obterValorInput('valor1')
-        const valor2 = obterValorInput('valor2')
+        const valor1 = parseInt(obterValorInput('valor1'))
+        const valor2 = parseInt(obterValorInput('valor2'))
         const resultado = Matematica[tipoOperacao](
             valor1, valor2
         )
